@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Water_Cave
+  m_Shader: {fileID: 4800000, guid: 4d8835a535e26114e8b0f4186d2b4063, type: 3}
+  m_ShaderKeywords: LPW_FOAM _CUSTOM_SHAPE _DISTORT_ON _EDGEBLEND_ON _EMISSION _LIGHTABS_ON
+    _SHADING_PIXELLIT _WAVES_OFF
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    QUEUE: AlphaTest+50
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _SurfaceDistortion:
+        m_Texture: {fileID: 2800000, guid: dc0dbee6a33a3e94d8298ccb9aa731cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SurfaceNoise:
+        m_Texture: {fileID: 2800000, guid: 4bb3c3eccdc4f8a4c8c4c795531f3ab4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DepthMaxDistance: 2.08
+    - _FoamMaxDistance: 2.15
+    - _FoamMinDistance: 0.04
+    - _SurfaceDistortionAmount: 0.27
+    - _SurfaceNoiseCutoff: 1
+    m_Colors:
+    - _DepthGradientDeep: {r: 0.5006908, g: 0.24029905, b: 0.6792453, a: 1}
+    - _DepthGradientShallow: {r: 0.581614, g: 0.32549018, b: 0.972549, a: 0.725}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SurfaceNoiseScroll: {r: 0.03, g: 0.03, b: 0, a: 0}

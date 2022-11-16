@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 402b5b37641054d2aa7fd46be6c9bc67, type: 3}
+  m_Name: VolumetricFogProfile_Hub
+  m_EditorClassIdentifier: 
+  lightingModel: 0
+  sunCopyColor: 1
+  density: 1
+  noiseStrength: 1
+  height: 12
+  heightFallOff: 0.241
+  baselineHeight: -689.9
+  distance: 0
+  distanceFallOff: 0
+  maxFogLength: 5000
+  maxFogLengthFallOff: 0.7
+  baselineRelativeToCamera: 0
+  baselineRelativeToCameraDelay: 0
+  noiseScale: 12.89
+  noiseSparse: 0
+  noiseFinalMultiplier: 1
+  alpha: 1.012
+  color: {r: 1, g: 0.97907126, b: 0.9372549, a: 1}
+  deepObscurance: 1
+  specularColor: {r: 1, g: 1, b: 0.8, a: 1}
+  specularThreshold: 0.6
+  specularIntensity: 0.259
+  lightDirection: {x: 0.3915073, y: -0.9187452, z: 0.0512778}
+  lightIntensity: 0
+  lightColor: {r: 0.9433962, g: 0.9145653, b: 0.84104663, a: 1}
+  speed: 0.008
+  useRealTime: 0
+  windDirection: {x: -1, y: 0, z: 0}
+  turbulenceStrength: 0
+  useXYPlane: 0
+  skyColor: {r: 0.9056604, g: 0.90454346, b: 0.80740476, a: 0.96}
+  skyHaze: 0
+  skySpeed: 0.3
+  skyNoiseStrength: 0.97
+  skyNoiseScale: 1.5
+  skyAlpha: 0.96
+  skyDepth: 0.999
+  stepping: 13.8
+  steppingNear: 0
+  dithering: 0
+  ditherStrength: 0.75
+  downsamplingOverride: 0
+  downsampling: 1
+  forceComposition: 0
+  edgeImprove: 0
+  edgeThreshold: 0.0005
+  lightScatteringOverride: 0
+  lightScatteringEnabled: 0
+  lightScatteringDiffusion: 0.7
+  lightScatteringSpread: 0.686
+  lightScatteringSamples: 16
+  lightScatteringWeight: 1.9
+  lightScatteringIllumination: 18
+  lightScatteringDecay: 0.986
+  lightScatteringExposure: 0
+  lightScatteringJittering: 0.5
+  lightScatteringBlurDownscale: 1
+  fogVoidOverride: 0
+  fogVoidTopology: 0
+  fogVoidFallOff: 1
+  fogVoidRadius: 0
+  fogVoidPosition: {x: 0, y: 0, z: 0}
+  fogVoidDepth: 0
+  fogVoidHeight: 0
